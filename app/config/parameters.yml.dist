@@ -16,4 +16,7 @@ parameters:
     mailer_password: ~
 
     # A secret key that's used to generate certain security-related tokens
-    secret: ThisTokenIsNotSoSecretChangeIt
+    
+    secret: ae930c7a844e062806aebeedb06ac1d51c7fb7cb
+    google_client_id : 57749400293-juhufvujsv9c4ll9tgs8he5bemlk9806.apps.googleusercontent.com        
+    google_client_secret : KYBz8oi9pjdNat5RAu4fv880

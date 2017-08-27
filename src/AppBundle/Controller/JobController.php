@@ -25,7 +25,7 @@ class JobController extends Controller {
     }
 
     /**
-     * @Route("/create/job")
+     * @Route("/create/job", name="add_job")
      */
     public function createAction(Request $request) {
         $em = $this->getDoctrine()->getManager();
@@ -49,7 +49,7 @@ class JobController extends Controller {
     }
 
     /**
-     * @Route("/job", name="list_job")
+     * @Route("/", name="list_job")
      */
     public function showAction() {
 

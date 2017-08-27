@@ -34,7 +34,7 @@ class RegistrationController extends Controller {
             $em->persist($user);
             $em->flush();
 
-            return $this->redirectToRoute('/');
+            return $this->redirectToRoute('list_job');
         }
 
         return $this->render(
